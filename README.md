@@ -1,6 +1,9 @@
-**Registration**
+# Registration #
+
+## Request ##
 
 POST https://kata.academy:8021/api/users
+
 content-type: application/json
 
 `{
@@ -11,7 +14,8 @@ content-type: application/json
     } 
 }`
 
-Response
+
+## Response ##
 
 `{
     "user": {
@@ -22,9 +26,12 @@ Response
 }`
 
 
-**Authentication**
+# Authentication #
+
+## Request ##
 
 POST https://kata.academy:8021/api/users/login
+
 content-type: application/json
 
 `{
@@ -34,7 +41,8 @@ content-type: application/json
     }
 }`
 
-Response
+
+## Response ##
 
 `{
     "user": {
@@ -45,13 +53,18 @@ Response
 }
 `
 
-**Get Current User**
+# Get Current User # 
+
+## Request ##
 
 GET https://kata.academy:8021/api/user
+
 content-type: application/json
+
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMzBhY2Y5ZmQyMTFjMjEwMGRiMmFmOSIsInVzZXJuYW1lIjoibmsiLCJleHAiOjE2NTI1OTkzNzEsImlhdCI6MTY0NzQxNTM3MX0.HpcwiKTjhv1ZjWw2FIkXrDlQAtUM4M1NbwsmAMbpeR0
 
-Response 
+
+## Response ##
 
 `{
     "user": {
