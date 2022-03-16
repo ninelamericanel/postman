@@ -18,6 +18,7 @@
 
 ## Response ##
 
+200 OK  
 ```
     { 
         "user": {
@@ -48,6 +49,7 @@
 
 ## Response ##
 
+200 OK
 ```
     {
         "user": {
@@ -68,6 +70,8 @@
 
 
 ## Response ##
+
+200 OK
 
 ```
     {
